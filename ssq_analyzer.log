@@ -1,0 +1,80 @@
+2026-03-28 15:02:53,301 - INFO - generated new fontManager
+2026-03-28 15:02:53,918 - INFO - 生成 50 期模拟数据用于演示
+2026-03-28 15:02:53,941 - INFO - 开始生成图表...
+2026-03-28 15:02:55,859 - INFO - 图表已保存: charts\red_frequency.png
+2026-03-28 15:02:56,878 - INFO - 图表已保存: charts\blue_frequency.png
+2026-03-28 15:03:03,386 - INFO - 图表已保存: charts\red_trend.png
+2026-03-28 15:03:06,476 - INFO - 图表已保存: charts\blue_trend.png
+2026-03-28 15:03:08,000 - INFO - 图表已保存: charts\red_missing.png
+2026-03-28 15:03:09,599 - INFO - 图表已保存: charts\blue_missing.png
+2026-03-28 15:03:09,600 - INFO - 成功生成 6 个图表
+2026-03-28 15:03:09,883 - INFO - 成功注册中文字体: C:/Windows/Fonts/simsun.ttc
+2026-03-28 15:03:09,884 - INFO - 开始生成PDF报告...
+2026-03-28 15:03:09,899 - ERROR - 生成PDF失败: Flowable <Image at 0x16800319f10 frame=normal filename=charts\red_frequency.png>(425.1968503937008 x 241.52650465128144) too large on page 3 in frame 'normal'(716.5039370078742 x 469.88976377952764*) of template 'Later'
+2026-03-28 15:03:09,900 - ERROR - 程序运行出错: Flowable <Image at 0x16800319f10 frame=normal filename=charts\red_frequency.png>(425.1968503937008 x 241.52650465128144) too large on page 3 in frame 'normal'(716.5039370078742 x 469.88976377952764*) of template 'Later'
+Traceback (most recent call last):
+  File "D:\workspace\BBB\trae0328\trae032802\trae0328-dogFooding\main.py", line 128, in main
+    pdf_generator.generate_report(summary, chart_files)
+  File "D:\workspace\BBB\trae0328\trae032802\trae0328-dogFooding\ssq_analyzer\pdf_generator.py", line 330, in generate_report
+    doc.build(self.story)
+  File "C:\Users\HUAWEI\AppData\Local\Programs\Python\Python39\lib\site-packages\reportlab\platypus\doctemplate.py", line 1322, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "C:\Users\HUAWEI\AppData\Local\Programs\Python\Python39\lib\site-packages\reportlab\platypus\doctemplate.py", line 1083, in build
+    self.handle_flowable(flowables)
+  File "C:\Users\HUAWEI\AppData\Local\Programs\Python\Python39\lib\site-packages\reportlab\platypus\doctemplate.py", line 962, in handle_flowable
+    raise LayoutError(ident)
+reportlab.platypus.doctemplate.LayoutError: Flowable <Image at 0x16800319f10 frame=normal filename=charts\red_frequency.png>(425.1968503937008 x 241.52650465128144) too large on page 3 in frame 'normal'(716.5039370078742 x 469.88976377952764*) of template 'Later'
+2026-03-28 15:03:44,760 - INFO - 生成 50 期模拟数据用于演示
+2026-03-28 15:03:44,790 - INFO - 开始生成图表...
+2026-03-28 15:03:46,944 - INFO - 图表已保存: charts\red_frequency.png
+2026-03-28 15:03:47,922 - INFO - 图表已保存: charts\blue_frequency.png
+2026-03-28 15:03:55,677 - INFO - 图表已保存: charts\red_trend.png
+2026-03-28 15:03:59,936 - INFO - 图表已保存: charts\blue_trend.png
+2026-03-28 15:04:01,342 - INFO - 图表已保存: charts\red_missing.png
+2026-03-28 15:04:02,438 - INFO - 图表已保存: charts\blue_missing.png
+2026-03-28 15:04:02,438 - INFO - 成功生成 6 个图表
+2026-03-28 15:04:02,703 - INFO - 成功注册中文字体: C:/Windows/Fonts/simsun.ttc
+2026-03-28 15:04:02,704 - INFO - 开始生成PDF报告...
+2026-03-28 15:04:02,720 - ERROR - 生成PDF失败: Flowable <Image at 0x20f83b6a4c0 frame=normal filename=charts\red_frequency.png>(425.1968503937008 x 241.52650465128144) too large on page 3 in frame 'normal'(716.5039370078742 x 469.88976377952764*) of template 'Later'
+2026-03-28 15:04:02,720 - ERROR - 程序运行出错: Flowable <Image at 0x20f83b6a4c0 frame=normal filename=charts\red_frequency.png>(425.1968503937008 x 241.52650465128144) too large on page 3 in frame 'normal'(716.5039370078742 x 469.88976377952764*) of template 'Later'
+Traceback (most recent call last):
+  File "D:\workspace\BBB\trae0328\trae032802\trae0328-dogFooding\main.py", line 128, in main
+    pdf_generator.generate_report(summary, chart_files)
+  File "D:\workspace\BBB\trae0328\trae032802\trae0328-dogFooding\ssq_analyzer\pdf_generator.py", line 338, in generate_report
+    doc.build(self.story)
+  File "C:\Users\HUAWEI\AppData\Local\Programs\Python\Python39\lib\site-packages\reportlab\platypus\doctemplate.py", line 1322, in build
+    BaseDocTemplate.build(self,flowables, canvasmaker=canvasmaker)
+  File "C:\Users\HUAWEI\AppData\Local\Programs\Python\Python39\lib\site-packages\reportlab\platypus\doctemplate.py", line 1083, in build
+    self.handle_flowable(flowables)
+  File "C:\Users\HUAWEI\AppData\Local\Programs\Python\Python39\lib\site-packages\reportlab\platypus\doctemplate.py", line 962, in handle_flowable
+    raise LayoutError(ident)
+reportlab.platypus.doctemplate.LayoutError: Flowable <Image at 0x20f83b6a4c0 frame=normal filename=charts\red_frequency.png>(425.1968503937008 x 241.52650465128144) too large on page 3 in frame 'normal'(716.5039370078742 x 469.88976377952764*) of template 'Later'
+2026-03-28 15:04:50,356 - INFO - 生成 50 期模拟数据用于演示
+2026-03-28 15:04:50,387 - INFO - 开始生成图表...
+2026-03-28 15:04:52,307 - INFO - 图表已保存: charts\red_frequency.png
+2026-03-28 15:04:53,650 - INFO - 图表已保存: charts\blue_frequency.png
+2026-03-28 15:05:15,779 - INFO - 图表已保存: charts\red_trend.png
+2026-03-28 15:05:51,974 - INFO - 生成 30 期模拟数据用于演示
+2026-03-28 15:05:51,990 - INFO - 开始生成图表...
+2026-03-28 15:05:53,787 - INFO - 图表已保存: charts\red_frequency.png
+2026-03-28 15:05:54,880 - INFO - 图表已保存: charts\blue_frequency.png
+2026-03-28 15:06:06,907 - INFO - 图表已保存: charts\red_trend.png
+2026-03-28 15:06:14,025 - INFO - 图表已保存: charts\blue_trend.png
+2026-03-28 15:06:16,345 - INFO - 图表已保存: charts\red_missing.png
+2026-03-28 15:06:18,211 - INFO - 图表已保存: charts\blue_missing.png
+2026-03-28 15:06:18,212 - INFO - 成功生成 6 个图表
+2026-03-28 15:06:18,420 - INFO - 成功注册中文字体: C:/Windows/Fonts/simsun.ttc
+2026-03-28 15:06:18,421 - INFO - 开始生成PDF报告...
+2026-03-28 15:06:26,652 - INFO - PDF报告已生成: ssq_analysis_report.pdf
+2026-03-28 15:06:49,307 - INFO - 生成 200 期模拟数据用于演示
+2026-03-28 15:06:49,337 - INFO - 开始生成图表...
+2026-03-28 15:06:51,937 - INFO - 图表已保存: charts\red_frequency.png
+2026-03-28 15:06:53,525 - INFO - 图表已保存: charts\blue_frequency.png
+2026-03-28 15:07:01,553 - INFO - 图表已保存: charts\red_trend.png
+2026-03-28 15:07:06,803 - INFO - 图表已保存: charts\blue_trend.png
+2026-03-28 15:07:09,538 - INFO - 图表已保存: charts\red_missing.png
+2026-03-28 15:07:11,184 - INFO - 图表已保存: charts\blue_missing.png
+2026-03-28 15:07:11,186 - INFO - 成功生成 6 个图表
+2026-03-28 15:07:11,468 - INFO - 成功注册中文字体: C:/Windows/Fonts/simsun.ttc
+2026-03-28 15:07:11,470 - INFO - 开始生成PDF报告...
+2026-03-28 15:07:18,757 - INFO - PDF报告已生成: ssq_analysis_report.pdf
